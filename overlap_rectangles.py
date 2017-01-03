@@ -33,7 +33,7 @@ def find_x_overlap(rec_1, rec_2):
     
 #optimized. O(1) runtime. O(1) space 
 
-  def find_range_overlap(point1, length1, point2, length2):
+def find_range_overlap(point1, length1, point2, length2):
 
     # find the highest start point and lowest end point.
     # the highest ("rightmost" or "upmost") start point is
